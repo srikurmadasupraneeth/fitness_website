@@ -40,7 +40,7 @@ git clone https://github.com/srikurmadasupraneeth/fitness_website.git
 cd PROJECT_FITNESS_APP
 
 
-### 2. Install dependencies
+ 2. Install dependencies
 
 ```bash
 npm install
