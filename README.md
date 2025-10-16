@@ -38,24 +38,26 @@ Follow these instructions to set up and run the project locally.
 ```bash
 git clone https://github.com/srikurmadasupraneeth/fitness_website.git
 cd PROJECT_FITNESS_APP
+```
 
-
- 2. Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 # or
 yarn install
+```
 
 ### 3. Set up Environment Variables
 ```bash
 Create a file named .env in the project root directory and add your RapidAPI key:
 REACT_APP_RAPID_API_KEY=YOUR_RAPID_API_KEY_HERE
 (Note: Replace YOUR_RAPID_API_KEY_HERE with your actual key, obtained from RapidAPI.)
-
-###4. Run the application
+```
+### 4. Run the application
 ```bash
 npm start
 # or
 yarn start
 The application will open in your browser at http://localhost:3000.
+```
