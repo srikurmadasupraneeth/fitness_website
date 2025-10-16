@@ -47,7 +47,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const paginate = (event, value) => {
     setCurrentPage(value);
 
-    window.scrollTo({ top: 1800, behavior: "smooth" });
+    window.scrollTo({ top: 1800, behavior: " smooth" });
   };
 
   if (!safeExercises.length) return <Loader />;

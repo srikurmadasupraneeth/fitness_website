@@ -6,7 +6,6 @@ export const exerciseOptions = {
     "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
   },
 };
-
 export const youtubeOptions = {
   method: "GET",
   headers: {
