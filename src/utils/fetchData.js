@@ -1,16 +1,19 @@
 export const exerciseOptions = {
-  method: 'GET',
+  method: "GET",
   headers: {
-    'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    // HOST: Standard ExerciseDB host (Ensure your components use this host)
+    "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+    "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
   },
 };
 
 export const youtubeOptions = {
-  method: 'GET',
+  method: "GET",
   headers: {
-    'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
-    'X-RapidAPI-Key': 'f0021db587msh781fb1cbef39856p11c183jsn45521d5d1c85',
+    // HOST: YouTube Search and Download host (Correct)
+    "X-RapidAPI-Host": "youtube-search-and-download.p.rapidapi.com",
+    // **FIXED KEY:** Replaced the hardcoded, expired key with your new key from the screenshot.
+    "X-RapidAPI-Key": "87eb6aea84mshe590b584978262ap189d06jsnd6245895ce35",
   },
 };
 
